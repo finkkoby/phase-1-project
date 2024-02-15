@@ -1,0 +1,107 @@
+html {
+    background-image: url('https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body {
+    font-family: cursive;
+}
+#header {
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 0px black;
+}
+#header h1 {
+    background-color:blanchedalmond;
+    padding: 20px;
+    border-radius: 17px;
+    box-shadow: 3px 3px 0px white;
+    letter-spacing: 15px;
+}
+#header button#home {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.character-name {
+    margin: 7px 0px;
+    letter-spacing: 6px;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px black;
+}
+div#character-cards {
+    margin: 20px auto;
+    padding: 50px 5px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://img.freepik.com/free-photo/wooden-floor-background_53876-88628.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+div#search-bar {
+    display: flex;
+    justify-content: center;
+}
+select#dropdown {
+
+}
+div.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.info-card img {
+    max-width: 20%;
+}
+div.info-card h3 {
+    margin-bottom: 2px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 5px;
+}
+div.info-card p {
+    margin-bottom: 15px;
+}
+div.info-card div#alt-names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+div.info-card div#alt-names p {
+    margin-bottom: 2px;
+}
+h3.hover-target {
+    letter-spacing: 12px;
+    cursor: pointer;
+}
+button#home, div#filter{
+    font-family: cursive;
+    padding: 5px 30px;
+    border-radius: 13px;
+    border: 3px antiquewhite;
+    border-style: solid;
+    box-shadow: none;
+    background-color: tan;
+}
+select#dropdown {
+    background-color:blanchedalmond;
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+}
+button#home {
+    letter-spacing: 10px;
+}
+button, select {
+    cursor: pointer;
+}
